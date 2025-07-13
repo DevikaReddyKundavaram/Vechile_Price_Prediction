@@ -94,7 +94,19 @@ cd vehicle-price-prediction
 pip install -r requirements.txt
 
 ## 📝 Sample Model Performance (Results)
-Mean Absolute Error (MAE): 4670.572119310819
-Mean Squared Error (MSE): 67689853.03200601
-Root Mean Squared Error (RMSE): 8227.38433720013
-R2 Score: 0.7783497507647608
+## 📊 Model Evaluation Results
+
+| Metric                          | Value           |
+|---------------------------------|-----------------|
+| **Mean Absolute Error (MAE)**   | **4,670.57 USD**   |
+| **Mean Squared Error (MSE)**    | **67,689,853.03 USD²** |
+| **Root Mean Squared Error (RMSE)** | **8,227.38 USD**   |
+| **R² Score**                    | **0.7783**         |
+
+---
+
+### 🔍 Interpretation:
+- **MAE ~ 4670 USD**: On average, predictions deviate by about **$4670** from actual prices.
+- **RMSE ~ 8227 USD**: Larger errors are present but within an acceptable range for vehicle price prediction.
+- **R² ~ 0.7783**: The model explains approximately **77.8% of the variance** in vehicle prices, showing solid performance.
+
